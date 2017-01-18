@@ -33,6 +33,11 @@ namespace imo_sort {
 		virtual ~sort_algo();
 		sort_algo_t get_sort_algo();
 		void set_sort_algo(sort_algo_t);
+		
+		sort_algo* getAlgoObject();
+		sort_algo* getAlgoObject(sort_algo_t);
+		
+		sort_algo* getObject(sort_algo_t);
 	private:
 		sort_algo_t  _algo;
 	};
