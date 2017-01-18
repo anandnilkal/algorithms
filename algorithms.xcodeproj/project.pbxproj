@@ -10,6 +10,8 @@
 		719FF1451E2FB997006F77B1 /* algorithms.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 719FF1441E2FB997006F77B1 /* algorithms.hpp */; };
 		719FF1471E2FB997006F77B1 /* algorithmsPriv.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 719FF1461E2FB997006F77B1 /* algorithmsPriv.hpp */; };
 		719FF1491E2FB997006F77B1 /* algorithms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 719FF1481E2FB997006F77B1 /* algorithms.cpp */; };
+		719FF1551E2FD644006F77B1 /* sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 719FF1531E2FD644006F77B1 /* sort.cpp */; };
+		719FF1561E2FD644006F77B1 /* sort.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 719FF1541E2FD644006F77B1 /* sort.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +19,8 @@
 		719FF1441E2FB997006F77B1 /* algorithms.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = algorithms.hpp; sourceTree = "<group>"; };
 		719FF1461E2FB997006F77B1 /* algorithmsPriv.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = algorithmsPriv.hpp; sourceTree = "<group>"; };
 		719FF1481E2FB997006F77B1 /* algorithms.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = algorithms.cpp; sourceTree = "<group>"; };
+		719FF1531E2FD644006F77B1 /* sort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sort.cpp; sourceTree = "<group>"; };
+		719FF1541E2FD644006F77B1 /* sort.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = sort.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 				719FF1441E2FB997006F77B1 /* algorithms.hpp */,
 				719FF1461E2FB997006F77B1 /* algorithmsPriv.hpp */,
 				719FF1481E2FB997006F77B1 /* algorithms.cpp */,
+				719FF1531E2FD644006F77B1 /* sort.cpp */,
+				719FF1541E2FD644006F77B1 /* sort.hpp */,
 			);
 			path = algorithms;
 			sourceTree = "<group>";
@@ -64,6 +70,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				719FF1451E2FB997006F77B1 /* algorithms.hpp in Headers */,
+				719FF1561E2FD644006F77B1 /* sort.hpp in Headers */,
 				719FF1471E2FB997006F77B1 /* algorithmsPriv.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -127,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				719FF1491E2FB997006F77B1 /* algorithms.cpp in Sources */,
+				719FF1551E2FD644006F77B1 /* sort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
