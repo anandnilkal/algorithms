@@ -10,7 +10,7 @@
 #include <iostream>
 #include "algorithms.hpp"
 #include "algorithmsPriv.hpp"
-#include "sort.h"
+#include "sort.hpp"
 
 void algorithms::HelloWorld(const char * s)
 {
