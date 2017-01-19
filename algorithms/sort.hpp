@@ -10,6 +10,10 @@
 #define sort_hpp
 
 #include <stdio.h>
+#include <stdint.h>
+#include <vector>
+
+using namespace std;
 
 namespace imo_sort {
 	
@@ -38,6 +42,9 @@ namespace imo_sort {
 		sort_algo* getAlgoObject(sort_algo_t);
 		
 		sort_algo* getObject(sort_algo_t);
+		virtual bool runSort(uint32_t*, uint32_t);
+		virtual bool runSort(std::vector<uint32_t>*);
+		virtual void swap(uint32_t*, uint32_t*);
 	private:
 		sort_algo_t  _algo;
 	};

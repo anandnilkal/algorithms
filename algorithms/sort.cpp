@@ -7,6 +7,7 @@
 //
 
 #include "sort.hpp"
+#include "selectionSort.hpp"
 
 namespace imo_sort{
 
@@ -31,9 +32,24 @@ namespace imo_sort{
 		return getObject(_algo);
 	}
 	
+	bool sort_algo::runSort(uint32_t *dlist, uint32_t len) {
+		return true;
+	}
+	
+	bool sort_algo::runSort(std::vector<uint32_t> *dlist) {
+		return true;
+	}
+	
+	void sort_algo::swap(uint32_t *l, uint32_t *r) {
+		uint32_t temp = *l;
+		*l = *r;
+		*r = temp;
+	}
+	
 	sort_algo* sort_algo::getObject(sort_algo_t t) {
 		switch(t) {
 			case SELECTION:
+				return new selectionSort();
 			case BUBBLE:
 			case QUICK:
 			case INSERTION:
@@ -45,8 +61,13 @@ namespace imo_sort{
 			case PIGEONHOLE:
 				return nullptr;
 				break;
+			case MAX:
+				break;
+			default:
+				break;
 		}
 		
 		return nullptr;
 	}
+	
 }
