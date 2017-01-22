@@ -13,11 +13,10 @@
 using namespace imo_sort;
 int main(int argc, const char * argv[]) {
 	// insert code here...
-	std::cout << "Hello, World!\n";
-	sort_algo *algorithm = new sort_algo();
-	sort_algo *sort = algorithm->getObject(imo_sort::SELECTION);
+	sort_algo algorithm;
+	sort_algo *select_sort = algorithm.getObject(imo_sort::SELECTION);
 	
-	uint32_t mylist[] = {8,29,7,11,3};
-	sort->runSort(mylist, sizeof(mylist)/sizeof(mylist[0]));
+	uint32_t mylist[] = {8,29,7,11,3, 85, 934, 84765, 3, 5774, 97};
+	select_sort->runSort(mylist, sizeof(mylist)/sizeof(mylist[0]));
 	return 0;
 }

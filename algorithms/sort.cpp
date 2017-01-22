@@ -8,20 +8,14 @@
 
 #include "sort.hpp"
 #include "selectionSort.hpp"
+#include "bubbleSort.hpp"
+#include "mergeSort.hpp"
 
 namespace imo_sort{
 
 	sort_algo::sort_algo() {}
 	
 	sort_algo::~sort_algo() {}
-	
-	void sort_algo::set_sort_algo(sort_algo_t t) {
-		_algo = t;
-	}
-	
-	sort_algo_t sort_algo::get_sort_algo() {
-		return _algo;
-	}
 	
 	sort_algo* sort_algo::getAlgoObject() {
 		return getObject(_algo);
@@ -51,9 +45,11 @@ namespace imo_sort{
 			case SELECTION:
 				return new selectionSort();
 			case BUBBLE:
+				return new bubbleSort();
 			case QUICK:
 			case INSERTION:
 			case MERGE:
+				return new mergeSort();
 			case HEAP:
 			case COUNTING:
 			case BUCKET:

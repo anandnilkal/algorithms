@@ -35,8 +35,6 @@ namespace imo_sort {
 	public:
 		sort_algo();
 		virtual ~sort_algo();
-		sort_algo_t get_sort_algo();
-		void set_sort_algo(sort_algo_t);
 		
 		sort_algo* getAlgoObject();
 		sort_algo* getAlgoObject(sort_algo_t);
@@ -45,7 +43,7 @@ namespace imo_sort {
 		virtual bool runSort(uint32_t*, uint32_t);
 		virtual bool runSort(std::vector<uint32_t>*);
 		virtual void swap(uint32_t*, uint32_t*);
-	private:
+	protected:
 		sort_algo_t  _algo;
 	};
 }

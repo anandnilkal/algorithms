@@ -11,15 +11,17 @@
 namespace imo_sort {
 	
 selectionSort::selectionSort() {
-	dataList = nullptr;
 }
 
 selectionSort::~selectionSort() {
-	dataList = nullptr;
 }
 
 bool selectionSort::runSort(uint32_t *dlist, uint32_t len) {
 	uint32_t min = 0;
+	/*
+	 *	algorithm needs 2 for loops running over entire n elements.
+	 *	hence complexity of the algorithm is O(n*n)
+	 */
 	for(int i = 0; i < len; i++) {
 		min = i;
 		for(int j = i+1; j < len; j++) {
@@ -27,13 +29,18 @@ bool selectionSort::runSort(uint32_t *dlist, uint32_t len) {
 				min = j;
 			}
 		}
+		/*
+		 *	space complexity is O(1) as no extra space is needed except for 
+		 *	temporary storage during swap operation.
+		 */
 		swap(&dlist[i], &dlist[min]);
+
+		for (int i = 0 ; i < len ; i++) {
+			printf("%2u\t", dlist[i]);
+		}
+		printf("\n");
 	}
-	
-	for (int i = 0 ; i < len ; i++) {
-		printf("%2u\t", dlist[i]);
-	}
-	printf("\n");
+
 	return true;
 }
 

@@ -20,9 +20,6 @@ namespace imo_sort {
 	
 		bool runSort(uint32_t*, uint32_t);
 		bool runSort(std::vector<uint32_t>*);
-	
-	private:
-		uint32_t*		dataList;
 	};
 }
 #endif /* selectionSort_hpp */
