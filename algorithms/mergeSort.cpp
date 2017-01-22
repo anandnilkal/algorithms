@@ -12,13 +12,17 @@
 using namespace std;
 namespace imo_sort {
 	mergeSort::mergeSort() {
-		
+		newlist = nullptr;
 	}
 	mergeSort::~mergeSort() {
-		
+		if(newlist) {
+			free(newlist);
+		}
+		newlist = nullptr;
 	}
 	
 	bool mergeSort::runSort(uint32_t *dlist, uint32_t len) {
+		newlist = reinterpret_cast<uint32_t*>(malloc(len));
 		sort(dlist, 0, len-1, len);
 		for (int i = 0 ; i < len ; i++) {
 			printf("%7u\t", dlist[i]);
@@ -41,10 +45,7 @@ namespace imo_sort {
 		uint32_t left_index = s;
 		uint32_t right_index = m+1;
 		uint32_t index = s;
-		uint32_t *newlist = nullptr;
-		if(!newlist) {
-			newlist = (uint32_t*) ::malloc(len);
-		}
+		
 		memset(newlist, 0, sizeof(newlist));
 		while(left_index < m+1 && right_index < e+1) {
 			if(dlist[left_index] <= dlist[right_index]) {
@@ -62,7 +63,6 @@ namespace imo_sort {
 		for (int i = s; i < index ; i++) {
 			dlist[i] = newlist[i];
 		}
-		free(newlist);
 	}
 	
 	bool mergeSort::runSort(std::vector<uint32_t> *dlist) {

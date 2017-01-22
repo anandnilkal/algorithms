@@ -26,6 +26,8 @@ namespace imo_sort {
 	private:
 		void sort(uint32_t*, uint32_t, uint32_t, uint32_t);
 		void merge(uint32_t*, uint32_t, uint32_t, uint32_t, uint32_t);
+		
+		uint32_t	*newlist;
 	};
 }
 #endif /* mergeSort_hpp */
