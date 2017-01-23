@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>testheap.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>testmain.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -27,6 +32,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>7130CBFE1E359DFE0016001A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>719FF1401E2FB997006F77B1</key>
 		<dict>
 			<key>primary</key>

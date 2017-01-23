@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "71DBE77F1E345D0F00912190"
-               BuildableName = "testmerge"
-               BlueprintName = "testmerge"
+               BlueprintIdentifier = "7130CBFE1E359DFE0016001A"
+               BuildableName = "testheap"
+               BlueprintName = "testheap"
                ReferencedContainer = "container:algorithms.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "71DBE77F1E345D0F00912190"
-            BuildableName = "testmerge"
-            BlueprintName = "testmerge"
+            BlueprintIdentifier = "7130CBFE1E359DFE0016001A"
+            BuildableName = "testheap"
+            BlueprintName = "testheap"
             ReferencedContainer = "container:algorithms.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "71DBE77F1E345D0F00912190"
-            BuildableName = "testmerge"
-            BlueprintName = "testmerge"
+            BlueprintIdentifier = "7130CBFE1E359DFE0016001A"
+            BuildableName = "testheap"
+            BlueprintName = "testheap"
             ReferencedContainer = "container:algorithms.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "71DBE77F1E345D0F00912190"
-            BuildableName = "testmerge"
-            BlueprintName = "testmerge"
+            BlueprintIdentifier = "7130CBFE1E359DFE0016001A"
+            BuildableName = "testheap"
+            BlueprintName = "testheap"
             ReferencedContainer = "container:algorithms.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
