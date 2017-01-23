@@ -10,6 +10,7 @@
 #include "selectionSort.hpp"
 #include "bubbleSort.hpp"
 #include "mergeSort.hpp"
+#include "heapSort.hpp"
 
 namespace imo_sort{
 
@@ -51,6 +52,7 @@ namespace imo_sort{
 			case MERGE:
 				return new mergeSort();
 			case HEAP:
+				return new heapSort();
 			case COUNTING:
 			case BUCKET:
 			case COMB:
