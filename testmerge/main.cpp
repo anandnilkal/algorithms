@@ -15,7 +15,7 @@ int main(int argc, const char * argv[]) {
 	sort_algo algorithm;
 	
 	sort_algo *merge_sort = algorithm.getAlgoObject(imo_sort::MERGE);
-	uint32_t mylist[] = {8,29,7,11,3,5774,85,934,84765,1,97};
+	uint32_t mylist[] = {8,29,7,11,3,5774,85,934,84765,1,977};
 	merge_sort->runSort(mylist, sizeof(mylist)/sizeof(mylist[0]));
 	return 0;
 }

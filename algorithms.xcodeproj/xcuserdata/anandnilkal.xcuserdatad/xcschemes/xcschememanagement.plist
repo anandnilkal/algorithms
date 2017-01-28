@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>algorithms 2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>algorithms.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -29,6 +34,11 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>testquick.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -53,6 +63,11 @@
 			<true/>
 		</dict>
 		<key>71DBE77F1E345D0F00912190</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>71ED7C251E3C676700C17607</key>
 		<dict>
 			<key>primary</key>
 			<true/>

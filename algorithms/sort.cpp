@@ -11,6 +11,7 @@
 #include "bubbleSort.hpp"
 #include "mergeSort.hpp"
 #include "heapSort.hpp"
+#include "quickSort.hpp"
 
 namespace imo_sort{
 
@@ -48,6 +49,7 @@ namespace imo_sort{
 			case BUBBLE:
 				return new bubbleSort();
 			case QUICK:
+				return new quickSort();
 			case INSERTION:
 			case MERGE:
 				return new mergeSort();
