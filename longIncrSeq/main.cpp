@@ -13,7 +13,7 @@ using namespace imo_sort;
 int main(int argc, const char * argv[]) {
 
 	longIncrSeq	LIS;
-	uint32_t arr[] = { 10, 22, 9, 33, 21, 50, 41, 40 };
+	uint32_t arr[] = { 10, 22, 25, 33, 21, 50, 41, 40 };
 	printf("length of LIS = %u\n",LIS.getLISlength(arr, 8));
     return 0;
 }
